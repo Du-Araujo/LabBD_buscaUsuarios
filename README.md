@@ -8,11 +8,11 @@
 
 <h1> Projeto para obtenção de nota em: LAB. BANCO DE DADOS </h1>
 <h2>Dependencias utilizadas: </h2>
-_"ejs": "^3.1.8"_
-_"express": "^4.18.2"_
-_"mysql": "^2.18.1"_
-_"node": "^19.1.0"_
-_"nodemon": "^2.0.20"_
+<p>"ejs": "^3.1.8"</p>
+<p>"express": "^4.18.2"</p>
+<p>"mysql": "^2.18.1"</p>
+<p>"node": "^19.1.0"</p>
+<p>"nodemon": "^2.0.20"</p>
 <hr>
 
 <h2>Como utilizar: </h2>
@@ -23,21 +23,24 @@ _"nodemon": "^2.0.20"_
 
 <h2>Configurações das tabelas do MYSQL</h2>
 
-{
+<p>CREATE DATABASE</p>
+
+```
 
 CREATE DATABASE projectdudu;
+USE projectdudu;
 CREATE TABLE usuarios;
 
-}
+```
 
 <p>INSERT / SELECT padrão para o SQL</p>
 
-{
+```
 
 INSERT INTO usuarios (userNumber, userName, userTeam) values (1, "Dudu a Lenda", "Palmeiras");
 SELECT * FROM usuarios;
 
-}
+```
 
 **INFO:** _Você pode inserir quantas entradas desejar via SQL, pois o endpoint retorna todos os valores_
 encontrados na tabela **Usuarios**_
