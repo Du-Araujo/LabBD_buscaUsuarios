@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../../routes/insertDatabase.js"></script>
+    <link rel="stylesheet" href="../../../source/style/style.css">
+    <title>Usuarios</title>
+    <style>
+        h1{
+            color: rgb(3, 29, 17);
+        }
+
+        h2{
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body bgcolor="yellowgreen">
+
+    <center>
+        <img src="https://nodejs.org/static/images/logo.svg">
+        <h1>Usuários</h1>
+    </center>
+
+    
+    <hr>
+    
+
+
+    <center>
+        <h2> Este endpoint retorna os dados do MYSQL, listados:</h2>
+    
+    <table class="tabela">
+        <tr>
+            <td><strong> Usuario</strong></td>
+            <td><strong> Nome Usuario</strong></td>
+            <td><strong> Time Usuario</strong></td>
+        </th>
+
+        <% for(var i=0; i < usuarios.length; i++ ){ %>
+            <tr>
+                <td><%=usuarios[i].userNumber%></td>
+                <td><%=usuarios[i].userName%></td>
+                <td><%=usuarios[i].userTeam%></td>
+            </tr>
+        <% } %>
+    </table>
+    </center>
+
+</body>
+</html>
