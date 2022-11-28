@@ -3,7 +3,7 @@
 <p>@Rodrigo Araujo</p>
 <p>@Eduardo Araujo</p>
 
-<img src="../../../source/img/Sem título.jpg">
+<img src="https://raw.githubusercontent.com/Du-Araujo/LabBD_buscaUsuarios/main/source/img/exemplo.jpg">
 
 
 <h1> Projeto para obtenção de nota em: LAB. BANCO DE DADOS </h1>
